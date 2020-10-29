@@ -1,3 +1,5 @@
+import './main.scss';
+
 import App from './app/app';
 import ComponentService from './app/component.service';
 import AlertService from './app/alert.service';

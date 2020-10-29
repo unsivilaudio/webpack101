@@ -6,8 +6,7 @@
     "main": "index.js",
     "scripts": {
         "start": "webpack-dev-server  --config webpack.dev.js --open",
-        "dev": "webpack-dev-server --open",
-        "dev:build": "webpack",
+        "dev": "webpack --config webpack.config.js",
         "build": "webpack --config webpack.prod.js"
     },
     "keywords": [],
